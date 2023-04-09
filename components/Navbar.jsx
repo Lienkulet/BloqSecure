@@ -44,7 +44,9 @@ const Navbar = () => {
                 </Link>
             </div>
             <div>
-                <button className='navbtn' onClick={() => showLogin? setShowLogin(0) : setShowLogin(1)}>Get Started</button>
+                <Link href={'/'} className='navbtn' onClick={() => handlePageChange(0,0,0,0)}>
+                    Get Started
+                    </Link>
             </div>
             <div className="nav-mobile">
                 <GiHamburgerMenu size={"3rem"}  onClick={() => showMenu==true? setShowMenu(0) : setShowMenu(1)} />

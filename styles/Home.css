@@ -4,7 +4,7 @@
     align-items: center;
 
     margin-top: 200px;
-    gap: 250px;
+    gap: 150px;
 }
 
 .heading {
@@ -13,6 +13,8 @@
     align-items: center;
     padding: 60px;
     gap: 60px;
+
+    width: fit-content;
 
     border-radius: 12px;
 
@@ -25,19 +27,24 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    text-align: start;
 
     max-width: 585px;
     gap: 50px
 }
 
 .heading-block h1 {
-    font-size: 40px;
+    font-size: 32px;
     font-weight: bold;
 }
 
 .heading-about {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 400;
+}
+
+.home-header{
+    margin-top: 20px;
 }
 
 .early-access {
@@ -49,7 +56,7 @@
 }
 
 .early-access h4 {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
 }
 
@@ -62,7 +69,7 @@
     width: 100%;
     padding: 20px;
 
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 200;
 }
 
@@ -82,14 +89,14 @@
 .blockchains h2,
 .currencies h2,
 .paymentMethod h2 {
-    font-size: 36px;
+    font-size: 30px;
     font-weight: 500;
 }
 
 .blockchains h5,
 .currencies h5,
 .paymentMethod h5 {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 400;
     margin-bottom: 30px;
 }
@@ -103,7 +110,7 @@
 .integration {
     display: flex;
     flex-direction: row;
-    gap: 200px;
+    gap: 150px;
 }
 
 .integration-block:nth-child(1) {
@@ -117,12 +124,12 @@
 }
 
 .integration-block h2 {
-    font-size: 36px;
+    font-size: 32px;
     font-weight: 500;
 }
 
 .integration-block h5 {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 400;
 }
 
@@ -139,7 +146,7 @@
 }
 
 .integration-block:nth-child(2) {
-    padding: 20px 30px;
+    padding: 10px 20px;
 
     border-radius: 12px;
 
@@ -156,7 +163,7 @@
     border: 1px solid #8E8CFF;
     border-radius: 12px;
 
-    padding: 60px;
+    padding: 30px;
     margin-bottom: 50px;
 
     -webkit-box-shadow: 10px 10px 20px 0px rgba(142, 140, 255, 0.33);
@@ -165,7 +172,7 @@
 }
 
 .currency h5 {
-    margin-top: 25px;
+    margin-top: 20px;
     margin-bottom: 0;
     font-weight: 500;
 }

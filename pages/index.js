@@ -1,8 +1,5 @@
-import { Login } from "@/components";
-import { useStateContext } from "@/context/StateContext";
 import Image from "next/image"
 import Link from "next/link"
-import { useState } from "react";
 import { BsArrowRight } from "react-icons/bs";
 
 export default function Home() {
@@ -10,7 +7,7 @@ export default function Home() {
       <div className="home">
       <div className="heading">
         <div className="heading-block">
-          <div className="header">
+          <div className="home-header">
             <h1>Acces Smart Contracts</h1>
             <h1>Without Cryptocurrency</h1>
           </div>
@@ -65,8 +62,8 @@ export default function Home() {
           <Image 
           src="/integration.png" 
           alt="integration"
-          width={336} 
-          height={310} />
+          width={300} 
+          height={290} />
         </div>
       </div>
       <div className="currencies">
