@@ -1,0 +1,115 @@
+.login-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+
+    border: 1px solid #8E8CFF;
+    border-radius: 12px;
+
+    width: fit-content;
+    padding: 45px 35px 60px 35px;
+    
+    height: fit-content;
+    background-color: #fff;
+    position: relative;
+    z-index: 999;
+    float: left;
+    
+    margin-top: 150px;
+    margin-left: 650px;
+    -webkit-box-shadow: 10px 10px 20px 0px rgba(142, 140, 255, 0.33);
+    -moz-box-shadow: 10px 10px 20px 0px rgba(142, 140, 255, 0.33);
+    box-shadow: 10px 10px 20px 0px rgba(142, 140, 255, 0.33);
+}
+
+.login-header {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.login-details {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 47px;
+    margin-top: 60px;
+}
+
+.detail {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.detail input {
+    height: 57px;
+    width: 100%;
+
+    border: none;
+    outline: none;
+    border-radius: 12px;
+
+    background: #D1D1D1;
+}
+
+.signUpBtn {
+    border: 1px solid #000;
+    background-color: transparent;
+    border-radius: 12px;
+    width: fit-content;
+    padding: 11px 60px;
+
+    font-weight: bold;
+    font-size: 24px;
+    color: #000;
+    cursor: pointer;
+}
+
+.signUpBtn:hover {
+    transform: scale(1.1, 1);
+}
+
+.login-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 18px;
+}
+
+.login-buttons > .submitBtn{
+    padding: 15px 73px;
+}
+
+.login-wrapper{
+    width: 100vw;
+    height: 100%;
+    background: rgba(0,0,0,.5);
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 100;
+    transition: all 1s ease-in-out;
+    backdrop-filter: blur(10px);
+}
+
+.exit{
+    display: flex;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+@media (max-width: 900px) {
+    .login-container {
+        margin-left: 10px;
+    }
+
+    .login-buttons{
+        flex-direction: column;
+    }
+
+    .login-buttons > .submitBtn{
+        font-size: 24px;
+    }
+}

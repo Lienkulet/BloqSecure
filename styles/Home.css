@@ -1,0 +1,228 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 200px;
+    gap: 250px;
+}
+
+.heading {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 60px;
+    gap: 60px;
+
+    border-radius: 12px;
+
+    -webkit-box-shadow: -19px 6px 44px -3px rgba(184, 178, 184, 1);
+    -moz-box-shadow: -19px 6px 44px -3px rgba(184, 178, 184, 1);
+    box-shadow: -19px 6px 44px -3px rgba(184, 178, 184, 1);
+}
+
+.heading-block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    max-width: 585px;
+    gap: 50px
+}
+
+.heading-block h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.heading-about {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.early-access {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    max-width: 550px;
+}
+
+.early-access h4 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.early-access input {
+    background-color: #D7D7D7;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+
+    width: 100%;
+    padding: 20px;
+
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.early-access>.submitBtn {
+    width: fit-content;
+}
+
+.blockchains,
+.currencies,
+.paymentMethod {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px
+}
+
+.blockchains h2,
+.currencies h2,
+.paymentMethod h2 {
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.blockchains h5,
+.currencies h5,
+.paymentMethod h5 {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.methods {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.integration {
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+}
+
+.integration-block:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 50px;
+
+    max-width: 400px;
+}
+
+.integration-block h2 {
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.integration-block h5 {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.learn-more {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #8E8CFF;
+    font-size: 20;
+    font-weight: 400;
+    text-decoration: none;
+    cursor: pointer;
+    gap: 10px;
+}
+
+.integration-block:nth-child(2) {
+    padding: 20px 30px;
+
+    border-radius: 12px;
+
+    -webkit-box-shadow: -19px 6px 44px -3px rgba(184, 178, 184, 1);
+    -moz-box-shadow: -19px 6px 44px -3px rgba(184, 178, 184, 1);
+    box-shadow: -19px 6px 44px -3px rgba(184, 178, 184, 1);
+}
+
+.currency {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border: 1px solid #8E8CFF;
+    border-radius: 12px;
+
+    padding: 60px;
+    margin-bottom: 50px;
+
+    -webkit-box-shadow: 10px 10px 20px 0px rgba(142, 140, 255, 0.33);
+    -moz-box-shadow: 10px 10px 20px 0px rgba(142, 140, 255, 0.33);
+    box-shadow: 10px 10px 20px 0px rgba(142, 140, 255, 0.33);
+}
+
+.currency h5 {
+    margin-top: 25px;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+
+.blockchain-images{
+    margin-bottom: 40px;
+}
+
+@media (max-width: 900px) {
+
+    .heading {
+        flex-direction: column;
+        width: fit-content;
+        padding: 10px;
+        gap: 40px;
+    }
+    
+    .heading-block {
+        width: fit-content;    
+        gap: 50px
+    }
+    
+    .heading-block h1 {
+        font-size: 30px;
+    }
+    
+    .heading-about {
+        font-size: 20px;
+    }
+
+
+.early-access h4 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.early-access input {
+    width: fit-content;
+    min-width: 320px;
+    padding: 20px;
+
+}
+
+.heading-block > .image{
+    width: 350px;
+    height: 250px;
+}
+
+.blockchains,
+.currencies,
+.paymentMethod {
+text-align: center;
+}
+
+.integration {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+}

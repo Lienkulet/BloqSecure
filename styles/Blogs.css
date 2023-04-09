@@ -1,0 +1,110 @@
+.blog {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 380px;
+    width: fit-content;
+    gap: 20px;
+}
+
+.image {
+    border-radius: 12px;
+}
+
+.blog h1 {
+    font-size: 48;
+    font-weight: bold;
+}
+
+.blog h5 {
+    font-size: 20;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.blog h5 {
+    font-size: 20;
+    font-weight: 500;
+}
+
+.categoryBtn {
+    background-color: #9897EB;
+    color: #6100FF;
+    font-size: 20;
+    font-weight: bold;
+    padding: 10px;
+    width: fit-content;
+    border-radius: 12px;
+}
+
+.blogBanner {
+    display: flex;
+    flex-direction: row;
+    padding: 35px 100px;
+    gap: 40px;
+
+    -webkit-box-shadow: -19px 6px 44px -3px rgba(184, 178, 184, 1);
+    -moz-box-shadow: -19px 6px 44px -3px rgba(184, 178, 184, 1);
+    box-shadow: -19px 6px 44px -3px rgba(184, 178, 184, 1);
+}
+
+.blogBanner-block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.blogBanner-block h5 {
+    margin-bottom: 30px;
+}
+
+.blogs {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 50px;
+    padding: 20px;
+}
+
+.blogheader {
+    max-width: 515px;
+    margin-top: 180px;
+}
+
+.blogs-display {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+    margin-bottom: 90px;
+}
+
+.viewBlogsBtn {
+    background-color: transparent;
+    border: 1px solid #000;
+    border-radius: 12px;
+    width: fit-content;
+    padding: 10px;
+
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.viewBlogsBtn:hover {
+    transform: scale(1, 1.1);
+}
+
+@media (max-width: 900px) {
+    .blogBanner {
+        flex-direction: column;
+        padding: 35px 20px;
+        width: fit-content;
+    }
+
+    .blogBanner .image{
+        width: 350px;
+        height: 300px;
+    }
+}

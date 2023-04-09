@@ -1,0 +1,91 @@
+.team{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
+}
+
+.team-heading{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 40px;
+    text-align: center;
+    border-radius: 12px;
+    margin-top: 125px;
+
+    -webkit-box-shadow: -19px 6px 44px -3px rgba(184, 178, 184, 1);
+    -moz-box-shadow: -19px 6px 44px -3px rgba(184, 178, 184, 1);
+    box-shadow: -19px 6px 44px -3px rgba(184, 178, 184, 1);
+}
+
+.team-about{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.team-about h3,
+.team-about p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.cofounders,
+.story{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 75px;
+}
+
+.story-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    max-width: 575px;
+    gap: 45px;
+}
+
+
+.cofounderImg{
+    margin-bottom: 30px;
+
+    -webkit-box-shadow: 10px 10px 20px 0px rgba(142, 140, 255, 0.33);
+    -moz-box-shadow: 10px 10px 20px 0px rgba(142, 140, 255, 0.33);
+    box-shadow: 10px 10px 20px 0px rgba(142, 140, 255, 0.33);
+}
+
+.cofounder{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cofounder h1{
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.cofounder h4{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.flex-wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 900px) {
+    .cofounders,
+    .story-block{
+        text-align: center;
+    }
+
+    .flex-wrap{
+        flex-direction: column;
+    }
+}

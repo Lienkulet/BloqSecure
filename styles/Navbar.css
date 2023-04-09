@@ -1,0 +1,148 @@
+.navbar {
+    display: flex !important;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000000;
+    color: #fff;
+    padding: 20px 50px;
+
+    position: fixed;
+    top: 0;
+    width: 95%;
+    z-index: 10;
+  }
+  
+  .nav-options {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .nav-option {
+    display: inline-block;
+    font-weight: lighter;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0.5em;
+    margin-inline-end: 0.5em;
+  }
+  
+  .nav-option:hover {
+    cursor: pointer;
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .active{
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+    font-weight: bold;
+  }
+
+  .nav-option:nth-last-child(1):hover{
+    margin-inline-start: 0.4em;
+    margin-inline-end: 0.4em;
+  }
+  
+  .nav-option:nth-last-child(2):hover {
+    margin-inline-start: 0.45em;
+    margin-inline-end: 0.4em;
+  }
+  
+  .nav-option:nth-child(2):hover {
+    margin-inline-start: 0.15em;
+    margin-inline-end: 0.3em;
+  }
+  
+  .nav-option:nth-child(1):hover {
+    margin-inline-start: 0em;
+    margin-inline-end: 0.55em;
+  }
+  
+  .logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .logo h1:nth-child(1) {
+    font-weight: black;
+  }
+  
+  .logo h1:nth-child(2) {
+    font-weight: lighter;
+  }
+
+  .navbtn{
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px 30px;
+    border-radius: 12px;
+  }
+
+  .logo:hover,
+  .navbtn:hover{
+    cursor: pointer;
+    transform: scale(1,1.1);
+  }
+
+  .nav-mobile{
+    display: none;
+  }
+
+  .sectionsMobile{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+  
+    position: absolute;
+    top: 80px;
+    right: 0;
+    bottom: 0;
+  
+    background-color: #000000;
+    border-radius: 12px;
+    width: 100%;
+    height: fit-content;
+    padding: 25px;
+  }
+  
+
+  .section{
+    margin-left: 60px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+  @media (max-width: 900px){
+    .nav-mobile{
+      display: flex;
+    }
+
+    .nav-option{
+      display: none;
+    }
+
+    .navbtn{
+      width: fit-content;
+      padding: 10px 10px;
+    }
+
+    .navbar{
+      padding: 20px 10px;
+    }
+
+  }
