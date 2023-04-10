@@ -25,8 +25,8 @@ export default function Home() {
           <Image 
           src="/boxchain15.png"
           alt="boxchain15"
-           width={500} 
-           height={400} 
+           width={400} 
+           height={350} 
            className="image"
            />
         </div>
